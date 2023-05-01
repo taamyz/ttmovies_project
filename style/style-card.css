@@ -1,0 +1,103 @@
+
+@font-face {
+    font-family: "Right-Sans-Wide-Black";
+    src: url(../style/fonts/RightSans/PPRightSans-WideBlack.otf);
+}
+
+@font-face {
+    font-family: "Helvetica-Neue-Light";
+    src: url(../style/fonts/HelveticaNeue/HelveticaNeueLight.ttf);
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.page-container {
+    width: 100%;
+    height: 100vh;
+    background: linear-gradient(180deg, #1C1C1C 0%, rgba(28, 28, 28, 0) 100%), url(../assets/images/bg-img.png);
+}
+
+.navbar {
+    width: 100%;
+    height: 104px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 40px;
+    position: relative;
+    left: 0px;
+    top: 0px;
+}
+
+h1 {
+    font-family: "Right-Sans-Wide-Black", sans-serif;
+    font-size: 100px;
+    color: #C2DDFF;
+    line-height: auto;
+    letter-spacing: 6%;
+    text-transform: uppercase;
+    text-align: left;
+    position: relative;
+} 
+
+h2 {
+    font-family: "Helvetica-Neue-Light", sans-serif;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 20px;
+    line-height: 24px;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+    color: #FFB763;
+}
+
+.ic {
+    box-sizing: border-box;
+    width: 24px;
+    height: 24px;
+}
+
+.menu-itens {
+    display: none;
+}
+
+.details h3 {
+    font-family: "Helvetica-Neue-Light", sans-serif;
+    font-style: normal;
+    font-size: 32;
+    letter-spacing: 4%;
+    color: #FFB763;
+}
+
+
+h3 {
+    font-family: "Helvetica-Neue-Light", sans-serif;
+    font-style: normal;
+    font-size: 32;
+    letter-spacing: 4%;
+    color: #FFB763;
+}
+
+.details {
+    justify-content: space-between;
+}
+
+h3 .left {
+    font-family: "Helvetica-Neue-Light", sans-serif;
+    font-style: normal;
+    font-size: 32;
+    letter-spacing: 4%;
+    color: #FFB763;
+}
+
+h3 .right {
+    font-family: "Right-Sans-Wide-Black", sans-serif;
+    font-style: normal;
+    font-size: 40;
+    letter-spacing: 10%;
+    color: #C2DDFF;
+}
