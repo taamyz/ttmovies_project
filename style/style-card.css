@@ -65,28 +65,11 @@ h2 {
     display: none;
 }
 
-.details h3 {
-    font-family: "Helvetica-Neue-Light", sans-serif;
-    font-style: normal;
-    font-size: 32;
-    letter-spacing: 4%;
-    color: #FFB763;
-}
-
-
-h3 {
-    font-family: "Helvetica-Neue-Light", sans-serif;
-    font-style: normal;
-    font-size: 32;
-    letter-spacing: 4%;
-    color: #FFB763;
-}
-
 .details {
     justify-content: space-between;
 }
 
-h3 .left {
+h3.yellow {
     font-family: "Helvetica-Neue-Light", sans-serif;
     font-style: normal;
     font-size: 32;
@@ -94,7 +77,7 @@ h3 .left {
     color: #FFB763;
 }
 
-h3 .right {
+h3.blue {
     font-family: "Right-Sans-Wide-Black", sans-serif;
     font-style: normal;
     font-size: 40;
