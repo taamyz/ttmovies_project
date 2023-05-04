@@ -1,0 +1,134 @@
+
+@font-face {
+    font-family: "Right-Sans-Wide-Black";
+    src: url(../style/fonts/RightSans/PPRightSans-WideBlack.otf);
+}
+
+@font-face {
+    font-family: "Helvetica-Neue-Light";
+    src: url(../style/fonts/HelveticaNeue/HelveticaNeueLight.ttf);
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.page {
+    display: flex;
+    width: 100%;
+    height: 80vh;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+    position: relative;
+}
+
+body {
+    background-color: #1c1c1c;
+}
+
+
+  .card-container {
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    position: relative;
+    margin: auto;
+    width: 360px;
+    height: 540px;
+    background-image: url(../assets/images/card-fill.jpg);
+    background-position: center; 
+    background-repeat: no-repeat;
+    background-size: 130%;
+    border-radius: 16px;
+}
+
+.bottom-container {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 100vh;
+    gap: 8px;
+    padding-left: 12px;
+    padding-right: 12px;
+    padding-bottom: 12px;
+    align-items: space-between;
+    justify-content: end;
+    flex-grow: 1;
+    background: radial-gradient(127.05% 102.04% at 50% 102.04%, #1C1C1C 34.38%, rgba(28, 28, 28, 0.53) 71.88%, rgba(28, 28, 28, 0) 100%);
+}
+
+.top-container {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 100vh;
+    align-items: start;
+    justify-content: start;
+    background: linear-gradient(180deg, #1C1C1C 0%, rgba(28, 28, 28, 0.932292) 19.27%, rgba(28, 28, 28, 0) 100%);
+}
+
+.title {
+    flex-wrap: wrap;
+    padding-top: 20px;
+    padding-left: 12px;
+}
+
+.subtitle {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding-left: 12px;
+    padding-right: 12px;
+    padding-top: 12px;
+    gap: 24px;
+    width: 100%;
+    height: 50px;
+}
+
+.button-container {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 100vh;
+    align-items: end;
+    justify-content: end;
+}
+
+.button {
+    width: 80px;
+    height: 80px;
+    background-color: #C2DDFF 20%;
+}
+
+
+/*font specs*/
+h3.yellow {
+    font-family: "Helvetica-Neue-Light", sans-serif;
+    font-style: normal;
+    font-size: 24px;
+    letter-spacing: 0.04em;
+    text-align: left;
+    color: #FFB763;
+}
+
+h3.blue {
+    font-family: "Right-Sans-Wide-Black", sans-serif;
+    font-style: normal;
+    font-size: 24px;
+    text-align: right;
+    letter-spacing: 0.10em;
+    color: #C2DDFF;
+}
+
+h1 {
+    font-family: "Right-Sans-Wide-Black", sans-serif;
+    font-style: normal;
+    font-size: 32px;
+    text-align: left;
+    text-transform: uppercase;
+    letter-spacing: 0.06em;
+    color: #C2DDFF;
+}
