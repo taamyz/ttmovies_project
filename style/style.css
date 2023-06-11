@@ -31,6 +31,34 @@ body {
     top: 0px;
 }
 
+.dropBtn:hover .drop-content {
+    display: flex;
+    flex-direction: column;
+}
+
+.drop-content {
+    display: none;
+    position: absolute;
+    align-items: right;
+    justify-content: right;
+    background-color: #1c1c1c;
+    margin: -24px;
+    padding: 16px;
+    top: 34px;
+    z-index: 12;
+}
+
+.link {
+    font-size: 16px;
+    padding: 12px, 10px;
+    display: block;
+    font-family: "Helvetica-Neue-Light", sans-serif;
+    color:#FFB763;
+    transition: all 0.5s ease !important;
+    text-decoration: none;
+}
+
+
 .ic {
     box-sizing: border-box;
     width: 24px;
@@ -38,9 +66,6 @@ body {
     cursor: pointer;
 }
 
-.menu-itens {
-    display: none;
-}
 
 #hero {
     width: 100%;
@@ -59,6 +84,10 @@ body {
     display: flex;
     align-items: center;
     justify-content: center;
+    -webkit-animation: fadeIn 5s;
+    -moz-animation: fadeIn 5s;
+    -o-animation: fadeIn 5s;
+    -ms-animation: fadeIn 5s;   
 }
 
 /*.block__pick-card {
@@ -106,31 +135,62 @@ body {
 #C1 {
     transform: matrix(0.0, -1, 1, 0.0, 0, 0);
     box-shadow: -4px 4px 4px rgba(0, 0, 0, 0.15);
+    transition: transform 0.3s ease-in-out; /* Animation */
 }
 
 #C2 {
     transform: matrix(0.64, -0.77, 0.77, 0.64, 0, 0);
     box-shadow: -4px 4px 4px rgba(0, 0, 0, 0.15);
+    transition: transform 0.3s ease-in-out; /* Animation */
     }
 
 #C3 {
     transform: matrix(0.96, -0.28, 0.28, 0.96, 0, 0);
     box-shadow: -4px 4px 4px rgba(0, 0, 0, 0.15);
+    transition: transform 0.3s ease-in-out; /* Animation */
     }
 
 #C4 {
     transform: matrix(0.95, 0.33, -0.33, 0.95, 0, 0);
     box-shadow: -4px 4px 4px rgba(0, 0, 0, 0.15);
+    transition: transform 0.3s ease-in-out; /* Animation */
     }
 
 #C5 {
     transform: matrix(0.59, 0.81, -0.81, 0.59, 0, 0);
     box-shadow: -4px 4px 4px rgba(0, 0, 0, 0.15);
+    transition: transform 0.3s ease-in-out; /* Animation */
     }
 
 #C6 {
-    transform: matrix(0.0, 1, -1, 0.0, 0, 0);
-    box-shadow: -4px 4px 4px rgba(0, 0, 0, 0.15);
+        transform: matrix(0.0, 1, -1, 0.0, 0, 0);
+        box-shadow: -4px 4px 4px rgba(0, 0, 0, 0.15);
+        transition: transform 0.3s ease-in-out; /* Animation */
+    }
+    
+#C1:hover {
+        transform: matrix(0.0, -1, 1, 0.0, -24, 0); /* Move diagonally */
+    }
+
+#C2:hover {
+        transform: matrix(0.64, -0.77, 0.77, 0.64, -24, -24); /* Move diagonally */
+    }
+
+#C3:hover {
+        transform: matrix(0.96, -0.28, 0.28, 0.96, -8, -24); /* Move diagonally */
+    }
+
+#C4:hover {
+        transform: matrix(0.95, 0.33, -0.33, 0.95, 8, -24); /* Move diagonally */
+    }
+
+
+#C5:hover {
+        transform: matrix(0.59, 0.81, -0.81, 0.59, 24, -24); /* Move diagonally */
+    }
+
+#C6:hover {
+        transform: matrix(0.0, 1, -1, 0.0, 24, 0); /* Move diagonally */
     }
 
 h2 {

@@ -1,0 +1,139 @@
+
+@font-face {
+    font-family: "Right-Sans-Wide-Black";
+    src: url(../style/fonts/RightSans/PPRightSans-WideBlack.otf);
+}
+
+@font-face {
+    font-family: "Helvetica-Neue-Light";
+    src: url(../style/fonts/HelveticaNeue/HelveticaNeueLight.ttf);
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #1c1c1c;
+}
+
+.navbar {
+    width: 100%;
+    height: 104px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 40px;
+    position:relative;
+    left: 0px;
+    top: 0px;
+}
+
+.ic {
+    box-sizing: border-box;
+    width: 24px;
+    height: 24px;
+    cursor: pointer;
+}
+
+#name {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    margin-top: 32px;
+    margin-bottom: 32px;
+    position: relative;
+    animation: ease 5s;
+}
+
+.contact-container {
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    position: relative;
+    margin: 32px;
+    width: 540px;
+    height: 540px;
+    background-size: 130%;
+    border-radius: 16px;
+}
+
+.contact-info {
+    display: block;
+    margin: 24px;
+    position: inherit;
+}
+
+.contact-list {
+    display: block;
+    margin-top: 120px;
+    position: inherit;
+
+}
+
+h3.social {
+    font-family: "Helvetica-Neue-Light", sans-serif;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 20px;
+    line-height: 24px;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+    color: #C2DDFF;
+}
+
+
+h3, h2 {
+    font-family: "Helvetica-Neue-Light", sans-serif;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 20px;
+    line-height: 24px;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+    color: #FFB763;
+}
+
+h1 {
+    font-family: "Right-Sans-Wide-Black", sans-serif;
+    font-size: 80px;
+    color: #C2DDFF;
+    line-height: 64px;
+    letter-spacing: 3.5%;
+    text-align: left;
+    position: left;
+}
+
+p {
+    font-family: "Helvetica-Neue-Light", sans-serif;
+    font-style: normal;
+    text-orientation: left;
+    font-size: 20px;
+    line-height: 140%;
+    letter-spacing: 0.04em;
+    color: #FFB763;
+}
+
+.button-container {
+    display: flex;
+    flex-direction: row;
+    padding-top: 24px;
+    gap: 40px;
+    width: 100%;
+    align-items: left;
+    justify-content: left;
+}
+
+ /*<body>
+    <div class="contact-container">
+        <div class="contact-info">
+        <h3>This site is a project of</h3>
+        <h1 id="name">Tamires Trindade</h1>
+        <ul class="contact-list">
+            <li><a href="https://www.instagram.com/taamyz/">Instagram</a></li>
+            <li><a href="mailto:tamires.trindade15@gmail.com">Send me an e-mail</a></li>
+        </ul>
+        </div>
+    </div>*/
